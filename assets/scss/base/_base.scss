@@ -1,0 +1,14 @@
+html {
+    color: $foreground;
+    background-color: $background;
+    overflow-x: hidden;
+}
+
+body {
+    color: $foreground;
+    font-size: $text-base;
+    font-weight: $font-medium;
+    font-family: $font-primary;
+    background-color: $background;
+    overflow-x: hidden;
+}

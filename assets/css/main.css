@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+html {
+  color: hsl(0, 0%, 7%);
+  background-color: hsl(0, 0%, 100%);
+  overflow-x: hidden;
+}
+
+body {
+  color: hsl(0, 0%, 7%);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 100%);
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: calc(1140px + 2 * 20px);
+  padding-inline: 20px;
+  margin-inline: auto;
+}
+
+.container-fluid {
+  max-width: 100%;
+  padding-inline: 20px;
+  margin-inline: auto;
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 12px 24px;
+  color: inherit;
+  font-weight: 600;
+  text-align: center;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 8px;
+  transition: color 0.2s, background 0.2s, border-color 0.2s;
+}
+.button--primary {
+  border-color: hsl(220, 90%, 56%);
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(220, 90%, 56%);
+}
+.button--primary:is(:hover, :active) {
+  border-color: hsl(220, 90%, 46%);
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(220, 90%, 46%);
+}
+.button--secondary {
+  border-color: hsl(340, 80%, 50%);
+  color: hsl(240, 100%, 50%);
+  background-color: hsl(340, 80%, 50%);
+}
+.button--secondary:is(:hover, :active) {
+  border-color: hsl(340, 80%, 40%);
+  color: hsl(240, 100%, 50%);
+  background-color: hsl(340, 80%, 40%);
+}
+.button--ghost {
+  border-color: hsl(340, 80%, 50%);
+  color: hsl(240, 100%, 50%);
+  background-color: hsl(340, 80%, 50%);
+}
+.button--ghost:is(:hover, :active) {
+  border-color: hsl(340, 80%, 40%);
+  color: hsl(240, 100%, 50%);
+  background-color: hsl(340, 80%, 40%);
+}
+.button--outline {
+  border-color: hsl(220, 90%, 56%);
+  color: hsl(0, 0%, 100%);
+  background-color: transparent;
+}
+.button--outline:is(:hover, :active) {
+  border-color: hsl(220, 90%, 46%);
+  color: hsl(240, 100%, 50%);
+  background-color: hsl(340, 80%, 40%);
+}
+
+.header {
+  background-color: red;
+}/*# sourceMappingURL=main.css.map */
