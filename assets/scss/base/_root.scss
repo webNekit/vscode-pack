@@ -25,6 +25,7 @@ $warning-foreground: hsl(0, 0%, 10%);
 $popover: hsl(0, 0%, 98%);
 $popover-foreground: hsl(0, 0%, 10%);
 
+$ring: hsl(240, 100%, 50%);
 $border: hsl(0, 0%, 80%);
 $separator: hsl(0, 0%, 70%);
 
@@ -63,3 +64,8 @@ $text-base: 16px;
 $content: 1140px;
 $container-offset: 20px;
 $container-width: calc(#{$content} + (2 * #{$container-offset}));
+
+$lg: 1440px;
+$md: 1024px;
+$sm: 768px;
+$xs: 576px;

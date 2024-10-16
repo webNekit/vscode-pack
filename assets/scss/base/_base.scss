@@ -1,6 +1,7 @@
 html {
     color: $foreground;
     background-color: $background;
+    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
